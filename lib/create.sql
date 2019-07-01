@@ -6,8 +6,11 @@ age INTEGER
 
 CREATE TABLE projects (
 id INTEGER PRIMARY KEY, 
-name TEXT, 
-age INTEGER 
+title TEXT, 
+category TEXT, 
+funding goal INTEGER, 
+end date INTEGER
+
 );
 
 CREATE TABLE pledges (
