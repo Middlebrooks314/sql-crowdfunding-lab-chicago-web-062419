@@ -9,8 +9,8 @@ id INTEGER PRIMARY KEY,
 title TEXT, 
 category TEXT, 
 funding_goal INTEGER, 
-end_date INTEGER
-
+start_date TEXT, 
+end_date TEXT
 );
 
 CREATE TABLE pledges (
