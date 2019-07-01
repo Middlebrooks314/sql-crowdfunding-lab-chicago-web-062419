@@ -49,7 +49,7 @@ end
 def selects_the_category_names_and_pledge_amounts_of_all_pledges_in_the_music_category
 "Write your SQL query Here"
 
-"SELECT projects.category, SUM(pledges.amount)
+"SELECT projects.category, pledges.amount
 FROM projects INNER JOIN pledges
 ON projects.id = pledges.user_id
 "
