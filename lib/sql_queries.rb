@@ -6,8 +6,13 @@
 
 # Make sure each ruby method returns a string containing a valid SQL statement.
 
+# SELECT column_name, column_name
+# FROM table_name
+# ORDER BY column_name ASC|DESC, column_name ASC|DESC;
+
 def selects_the_titles_of_all_projects_and_their_pledge_amounts_alphabetized_by_name
 "Write your SQL query Here"
+SELECT 
 
 end
 
