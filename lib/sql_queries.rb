@@ -12,7 +12,9 @@
 
 def selects_the_titles_of_all_projects_and_their_pledge_amounts_alphabetized_by_name
 "Write your SQL query Here"
-SELECT projects.title, 
+"SELECT projects.title, pledges.amount
+FROM projects, pledges
+ORDER BY projects.title ASC;"
 
 end
 
