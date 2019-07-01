@@ -12,7 +12,7 @@
 
 def selects_the_titles_of_all_projects_and_their_pledge_amounts_alphabetized_by_name
 "Write your SQL query Here"
-SELECT 
+SELECT projects.title, 
 
 end
 
